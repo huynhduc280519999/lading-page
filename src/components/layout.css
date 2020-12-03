@@ -8,7 +8,6 @@
   src: url("../assets/fonts/Mulish-Bold.ttf");
 }
 
-
 @font-face {
   font-family: "Mulish";
   src: url("../assets/fonts/Mulish-Regular.ttf");
@@ -19,12 +18,23 @@
   src: url("../assets/fonts/BeVietnam-ExtraBold.ttf");
 }
 
+@font-face {
+  font-family: "Italianno";
+  src: url("../assets/fonts/Italianno-Regular.ttf");
+}
+
 * {
   font-family: "Mulish";
 }
 
 @media only screen and (min-width: 1281px) {
-  .header, .time-location, .target, .training-program, .instructor, .evaluate, .footer {
+  .header,
+  .time-location,
+  .target,
+  .training-program,
+  .instructor,
+  .evaluate,
+  .footer {
     width: 1280px;
     margin: 0 auto;
   }
@@ -33,9 +43,7 @@
     width: 1280px;
     margin: 0 auto;
   }
-
-} 
-
+}
 
 html {
   -ms-text-size-adjust: 100%;
@@ -638,5 +646,3 @@ pre tt:after {
 main {
   overflow: hidden;
 }
-
-
