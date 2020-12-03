@@ -1,0 +1,148 @@
+.footer__wrapper {
+  background-image: url("../../images/Mask Group.png");
+  height: 510px;
+  width: 100%;
+  background-repeat: no-repeat;
+
+  background-position: center;
+  background-size: 100% 100%;
+}
+
+.footer__wrapper__shadow {
+  height: 100%;
+  width: 100%;
+  background-image: url("../../images/Rectangle 36.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+}
+
+.footer__title1 {
+  width: 100%;
+  font-family: Mulish;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 80px;
+  letter-spacing: 0em;
+  text-align: left;
+
+  color: #ffffff;
+  padding-top: 50px;
+  text-align: center;
+}
+
+.footer__title2 {
+  font-family: Italianno;
+  font-size: 96px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #f15841;
+  text-align: center;
+  width: 100%;
+}
+
+.footer__title__date {
+  font-family: Mulish;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #ffffff;
+}
+
+.footer__title__time {
+  font-family: Mulish;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #ffffff;
+}
+
+.footer__title__sub_date {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__title__sub_month,
+.footer__title__sub_year {
+  font-family: Mulish;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: center;
+
+  color: #e5d547;
+}
+
+.footer__title__sub_day {
+  font-family: Mulish;
+  font-size: 96px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #e5d547;
+}
+
+.footer__title__date__time {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.footer__title__date,
+.footer__title__time {
+  line-height: 180px;
+}
+.footer__title__date > span,
+.footer__title__time > span {
+  border-top: 1px solid #ffff;
+  border-bottom: 1px solid #ffff;
+  padding: 10px;
+}
+
+.footer__title__address {
+  font-family: Mulish;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: center;
+  width: 100%;
+
+  color: #ffffff;
+}
+
+/* mobi */
+@media only screen and (max-width: 600px) {
+  .footer__wrapper {
+    height: 100vh;
+    background-size: auto 100%;
+  }
+
+  .footer__wrapper__shadow {
+    background-size: auto 100%;
+  }
+
+  .footer__title1,
+  .footer__title2 {
+    display: none;
+  }
+  
+  .footer__title__date__time {
+    flex-direction: column;
+  }
+}

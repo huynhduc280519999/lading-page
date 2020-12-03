@@ -12,6 +12,8 @@
   height: 100%;
   width: 60%;
   background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% auto;
 }
 
 .header__background__content {
@@ -28,6 +30,9 @@
   top: 58px;
 
   background: url("../../images/VNS-logo_FA-white-04 .png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% auto;
 }
 
 .header__title__content {
