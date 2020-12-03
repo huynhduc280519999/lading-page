@@ -10,7 +10,7 @@ const Header = () => {
           HỘI PHẪU THUẬT THẦN KINH VIỆT NAM
         </p>
         <h3 className="header_sub_title">CHƯƠNG TRÌNH</h3>
-        <h3 className="header_sub_title1">CMC 2020</h3>
+        <h3 className="header_sub_title1">CME 2020</h3>
         <div className="header__title__address">
           <div>
             <h4>Đà Lạt, 4-5/12/2020</h4>
