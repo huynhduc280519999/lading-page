@@ -9,7 +9,7 @@
   font-weight: 800;
   font-size: 48px;
   line-height: 60px;
-  color: #00154E;
+  color: #00154e;
   text-transform: uppercase;
 }
 .dash__donor {
@@ -20,10 +20,29 @@
   height: 22px;
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
-  background-color: #F15841;
+  background-color: #f15841;
 }
 .donor__img {
   display: flex;
   justify-content: space-around;
   align-items: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .dash__donor {
+    display: none;
+  }
+  .donor__title {
+    text-align: center;
+  }
+  .donor {
+    padding: 0;
+  }
+
+  .donor__img > img {
+    display: block;
+  }
+  .donor__img {
+    flex-flow: column;
+  }
 }

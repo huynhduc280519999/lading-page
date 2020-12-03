@@ -38,3 +38,12 @@
   line-height: 60px;
   color: #00154e;
 }
+
+@media only screen and (max-width: 600px) {
+  .rapporteur__wrapper__title__dash {
+    display: none;
+  }
+  .rapporteur__wrapper__title {
+    text-align: center;
+  }
+}

@@ -24,7 +24,7 @@
   position: absolute;
   width: 106px;
   height: 37px;
-  left: 10.44%;
+  left: 0;
   top: 58px;
 
   background: url("../../images/VNS-logo_FA-white-04 .png");
@@ -33,7 +33,7 @@
 .header__title__content {
   width: 100%;
   position: absolute;
-  left: 10.44%;
+  left: 0;
   right: 66.48%;
   top: 13.81%;
   bottom: 99.03%;
@@ -50,7 +50,7 @@
 .header_sub_title {
   width: 100%;
   position: absolute;
-  left: 10.44%;
+  left: 0;
   right: 56.09%;
   top: 31.78%;
   bottom: 97.28%;
@@ -69,7 +69,7 @@
 .header_sub_title1 {
   width: 100%;
   position: absolute;
-  left: 10.44%;
+  left: 0;
   right: 63.36%;
   top: 41.34%;
   bottom: 97%;
@@ -133,10 +133,75 @@
   border: none;
 
   cursor: pointer;
+  display: inline-block;
+  text-align: center;
+  line-height: 72px;
 }
 
 .header__btn_join_wrapper {
   position: absolute;
   top: 75%;
-  left: 10.44%;
+  left: 0;
+}
+
+.header__content__wrapper {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 10%;
+}
+
+.header__content__wrapper_2 {
+  position: relative;
+  height: 100%;
+}
+
+/* mobi */
+@media only screen and (max-width: 600px) {
+  .header__title__logo {
+    top: 15px;
+    left: 20px;
+  }
+
+  .header__title__content {
+    top: 10.81%;
+  }
+
+  .header__background__content {
+    width: 100%;
+  }
+
+  .header__background__image {
+    display: none;
+  }
+
+  .header__content__wrapper {
+    left: 0;
+  }
+
+  .header__content__wrapper_2 {
+    display: flex;
+    text-align: center;
+  }
+  .header_sub_title {
+    top: 18.34%;
+    font-size: 33px;
+  }
+
+  .header_sub_title1 {
+    top: 31.34%;
+  }
+  .header__title__address {
+    width: 100%;
+    top: 65%;
+  }
+  .header__title__address > div > h4 {
+    position: static;
+    font-size: 28px;
+  }
+
+  .header__btn_join_wrapper {
+    width: 100%;
+    top: 80%;
+  }
 }

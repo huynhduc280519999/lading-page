@@ -30,3 +30,27 @@
   align-items: center;
   padding: 0 80px;
 }
+
+/* mobi */
+@media only screen and (max-width: 600px) {
+  .dash {
+    display: none;
+  }
+
+  .organizer {
+    text-align: center;
+  }
+
+  .organizer__title {
+    padding: 0;
+  }
+
+  .organizer__content {
+    padding: 0;
+  }
+  .person__container {
+    width: auto;
+    margin: auto;
+    min-width: 80%;
+  }
+}
