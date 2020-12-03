@@ -1,0 +1,32 @@
+.organizer {
+  background-color: #ffffff;
+  padding: 86px 0;
+  position: relative;
+}
+.organizer__title {
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 60px;
+  color: #00154E;
+  padding: 0 108px;
+}
+.dash {
+  position: absolute;
+  top: 112px;
+  left: 0;
+  width: 88px;
+  height: 22px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background-color: #F15841;
+}
+.organizer__content {
+  margin-top: 87px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 80px;
+}
