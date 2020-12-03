@@ -3,23 +3,140 @@
   width: 100%;
   display: flex;
   justify-content: space-between;
+  background: #00154e;
+  position: relative;
 }
 
 .header__background__image {
   background-image: url("../../images/header_image.png");
   height: 100%;
   width: 60%;
+  background-repeat: no-repeat;
 }
 
 .header__background__content {
   height: 100%;
-  width: 60%;
+  width: 40%;
   background: #00154e;
 }
+
 .header__title__logo {
   position: absolute;
   width: 106px;
   height: 37px;
-  left: 109px;
+  left: 10.44%;
   top: 58px;
+
+  background: url("../../images/VNS-logo_FA-white-04 .png");
+}
+
+.header__title__content {
+  width: 100%;
+  position: absolute;
+  left: 10.44%;
+  right: 66.48%;
+  top: 13.81%;
+  bottom: 99.03%;
+
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 20px;
+
+  color: #ffffff;
+}
+
+.header_sub_title {
+  width: 100%;
+  position: absolute;
+  left: 10.44%;
+  right: 56.09%;
+  top: 31.78%;
+  bottom: 97.28%;
+
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 55px;
+  line-height: 69px;
+
+  color: #ffffff;
+
+  text-shadow: 0px 4px 4px #f15841;
+}
+
+.header_sub_title1 {
+  width: 100%;
+  position: absolute;
+  left: 10.44%;
+  right: 63.36%;
+  top: 41.34%;
+  bottom: 97%;
+
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 72px;
+  line-height: 90px;
+
+  color: #c1dbeb;
+}
+
+.header__title__address {
+  width: 50%;
+  position: absolute;
+  left: 0%;
+  right: 60.16%;
+  top: 57.12%;
+  bottom: 96.29%;
+  height: 76px;
+
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.2) 50%,
+    rgba(196, 196, 196, 0) 84.58%
+  );
+}
+
+.header__title__address > div {
+  position: relative;
+  width: 100%;
+}
+
+.header__title__address > div > h4 {
+  position: absolute;
+  left: 20.88%;
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 72px;
+  text-align: center;
+
+  color: #c1dbeb;
+}
+
+.header__btn_join {
+  background: #f15841;
+  border-radius: 40px;
+
+  width: 302px;
+  height: 76px;
+  color: #ffffff;
+
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 30px;
+  border: none;
+
+  cursor: pointer;
+}
+
+.header__btn_join_wrapper {
+  position: absolute;
+  top: 75%;
+  left: 10.44%;
 }
