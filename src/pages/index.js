@@ -5,6 +5,7 @@ import Rapporteur from "../components/rapporteur"
 import SEO from "../components/seo"
 import Organizer from "../components/organizer"
 import Donor from "../components/donor"
+import Training from '../components/training'
 import Footer from "../components/footer"
 
 const IndexPage = () => (
@@ -14,6 +15,7 @@ const IndexPage = () => (
     <Organizer />
     <Rapporteur />
     <Donor />
+    <Training />
     <Footer />
   </Layout>
 )
