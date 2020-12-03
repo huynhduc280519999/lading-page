@@ -16,7 +16,7 @@ const Header = () => {
 
             <div className="header__btn_join_wrapper">
               <a
-                href="https://vns.webinar.mdconference.vn/wbn/login"
+                href="https://vns.webinar.mdconference.vn/livestream/ikctup"
                 className="header__btn_join"
               >
                 THAM GIA
