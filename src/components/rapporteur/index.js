@@ -75,16 +75,22 @@ const data = [
 
 const Rapporteur = () => {
   return (
-    <div className="rapporteur__wrapper">
-      <div className="rapporteur__wrapper__title">BÁO CÁO VIÊN</div>
-      <div className="rapporteur__wrapper__title__dash" />
-      <div className="rapporteur__list">
-        {data.map(item => (
-          <RapporteurItem name={item.name} positions={item.positions} />
-        ))}
+    <>
+      <div className="rapporteur__wrapper_big_sub_tile">
+        <div className="rapporteur__wrapper__title__dash" />
+        <div className="rapporteur__wrapper__title__dash2" />
+        <div className="rapporteur__wrapper__title">BÁO CÁO VIÊN</div>
       </div>
-    </div>
+      <div className="rapporteur__wrapper">
+        <div className="rapporteur__list">
+          {data.map(item => (
+            <RapporteurItem name={item.name} positions={item.positions} />
+          ))}
+        </div>
+      </div>
+    </>
   )
 }
 
 export default Rapporteur
+

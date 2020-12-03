@@ -11,7 +11,7 @@
 .person .avatar {
   width: 190px;
   height: 190px;
-  background: #C4C4C4;
+  background: #c4c4c4;
   border-radius: 50%;
   text-align: center;
   display: flex;
@@ -29,7 +29,7 @@
 .person__name {
   font-size: 18px;
   line-height: 23px;
-  color: #00154E;
+  color: #00154e;
   margin: 0;
   text-transform: uppercase;
   text-align: center;
@@ -37,8 +37,15 @@
 .person__position {
   font-size: 14px;
   line-height: 18px;
-  color: #4F4F4F;
+  color: #4f4f4f;
   margin: 0;
   font-style: italic;
   text-align: center;
+}
+
+/* *** */
+@media only screen and (max-width: 920px) {
+  .person__container {
+    width: 280px;
+  }
 }
