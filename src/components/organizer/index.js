@@ -27,7 +27,7 @@ const Organizer = () => {
     {
       name: 'nguyễn trọng thiện',
       title: 'TS. BS',
-      position: 'Chủ tịch Hội PTTK Việt Nam'
+      position: 'Phó Chủ tịch Hội PTTK Việt Nam'
     },
     {
       name: 'nguyễn minh anh',
