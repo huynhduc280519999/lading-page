@@ -1,6 +1,6 @@
 .organizer {
   background-color: #ffffff;
-  padding: 86px 0;
+  padding: 86px 0 0 0;
   position: relative;
 }
 .organizer__title {
@@ -9,7 +9,7 @@
   font-weight: 800;
   font-size: 48px;
   line-height: 60px;
-  color: #00154E;
+  color: #00154e;
   padding: 0 108px;
 }
 .dash {
@@ -20,7 +20,7 @@
   height: 22px;
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
-  background-color: #F15841;
+  background-color: #f15841;
 }
 .organizer__content {
   margin-top: 87px;
