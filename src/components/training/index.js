@@ -42,7 +42,7 @@ const Training = () => {
       manage: []
     }
   ]
-  const namePractive = 'Phần thực hành'
+  const namePractive = 'Phần thực hành trên sawbone'
   const subNamePractive = 'tại Hội trường Bệnh viện, 50 HV, chia thành 10 nhóm'
   const practives1 = [
     {
