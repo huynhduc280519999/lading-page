@@ -12,6 +12,6 @@ deployyhct:
   script:
     - npm install
     - npm run build
-    - ssh -p 1210 ${USER}@${FRONT_N1} "/bin/mkdir -p /var/www/services_master/yhct_landing"
-    - rsync -a -e "ssh -p 1210" public/ ${USER}@${FRONT_N1}:/var/www/services_master/yhct_landing --delete
+    - ssh -p 1210 ${USER}@${FRONT_N1} "/bin/mkdir -p /var/www/services_master/vns_landing"
+    - rsync -a -e "ssh -p 1210" public/ ${USER}@${FRONT_N1}:/var/www/services_master/vns_landing --delete
 
