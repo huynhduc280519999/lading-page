@@ -1,0 +1,25 @@
+.header__wrapper {
+  height: 720px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__background__image {
+  background-image: url("../../images/header_image.png");
+  height: 100%;
+  width: 60%;
+}
+
+.header__background__content {
+  height: 100%;
+  width: 60%;
+  background: #00154e;
+}
+.header__title__logo {
+  position: absolute;
+  width: 106px;
+  height: 37px;
+  left: 109px;
+  top: 58px;
+}

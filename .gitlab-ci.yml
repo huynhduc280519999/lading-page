@@ -1,0 +1,17 @@
+before_script:
+  - export PATH=$PATH:$HOME/.nvm/versions/node/v13.11.0/bin/
+
+stages:
+  - deploy
+
+deployyhct:
+  stage: deploy
+  only:
+    refs:
+      - master
+  script:
+    - npm install
+    - npm run build
+    - ssh -p 1210 ${USER}@${FRONT_N1} "/bin/mkdir -p /var/www/services_master/yhct_landing"
+    - rsync -a -e "ssh -p 1210" public/ ${USER}@${FRONT_N1}:/var/www/services_master/yhct_landing --delete
+
