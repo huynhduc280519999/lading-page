@@ -8,12 +8,12 @@
 }
 
 .header__background__image {
-  background-image: url("../../images/header_image.png");
-  height: 100%;
+  background-image: url("../../assets/imgs/icon-react.svg");
+  height: 90%;
   width: 60%;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 100% auto;
+  background-size: 80% auto;
 }
 
 .header__background__content {
@@ -29,7 +29,7 @@
   left: 0;
   top: 58px;
 
-  background: url("../../images/VNS-logo_FA-white-04 .png");
+  background: url("../../assets/imgs/logo.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100% auto;

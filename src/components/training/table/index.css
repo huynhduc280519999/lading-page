@@ -57,7 +57,7 @@
   font-weight: 800;
   font-size: 18px;
   color: #000000;
-  width: 178px;
+  width: 300px;
   text-align: center;
 }
 .col {
@@ -74,20 +74,15 @@
   display: block;
   font-style: italic;
 }
-.manage li {
-  margin-bottom: 22px;
-}
 .manage__name {
   font-weight: 800;
 }
 .activity {
-  width: calc(100% - 522px);
+  width: calc(100% - 300px);
   font-size: 18px;
   color: #000000;
   word-break: break-word;
-}
-.activity li {
-  margin-bottom: 40px;
+  border-right: none;
 }
 li {
   list-style: none;
